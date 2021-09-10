@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header><h1>Dinner Total Cost</h1></header>
+        <script>
+          
+
+            // third side of the triangle
+                    const a = parseInt(prompt("enter dinner cost"));
+                    const b = parseInt(prompt("enter tip percentage"));
+            // calculate third side
+                    const totCost =(a*(b/100)+a);
+
+            //display results
+                    const html = `<p><label>Dinner Cost: </label>${a}</p>
+                                  <p><label>Tip Percentage: </label>${b}</p>
+                                  <p><label>Total Cost: </label>${totCost.toFixed(2)}</p>`;
+
+                    document.write(html);
+
+
+        </script>
+    </body>
+</html>

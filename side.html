@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header><h1>Missing Right Triangle Side</h1></header>
+        <script>
+
+            // find the third side of the triangle
+                const a = parseInt(prompt("Enter first triangle side"));
+                const b = parseInt(prompt("Enter second triangle side"));
+            // calculate third side
+                const side3 =(((a * a) +(b * b))**(1/2));
+
+            //display results
+                const html = `<p><label>First Side: </label>${a}</p>
+                              <p><label>Second Side: </label>${b}</p>
+                              <p><label>Missing Side: </label>${side3.toFixed(2)}</p>`;
+    
+                document.write(html);
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
