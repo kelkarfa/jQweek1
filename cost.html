@@ -8,11 +8,13 @@
         <script>
           
 
-            // third side of the triangle
-                    const a = parseInt(prompt("enter dinner cost"));
-                    const b = parseInt(prompt("enter tip percentage"));
-            // calculate third side
-                    const totCost =(a*(b/100)+a);
+            // Calculate the total dinner cost
+                // get dinner cost data
+                    const x = parseInt(prompt("enter dinner cost"));
+                // get tip percentage data
+                    const y = parseInt(prompt("enter tip percentage"));
+            // calculate the total cost
+                    const totCost =(x*(y/100)+x);
 
             //display results
                     const html = `<p><label>Dinner Cost: </label>${a}</p>
