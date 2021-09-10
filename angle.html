@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="style.css" />
+    </header>
+    <body>
+        <head><h1>Missing Angle</h1></head>
+        <script>
+            // Find the third angle of the triangle
+                    const angl1 = parseInt(prompt("enter angle1"));
+                    const angl2 = parseInt(prompt("enter side2"));
+            // calculate third angle
+                    const angl3 = (180 - angl1 - angl2);
+
+            // display results
+                    const html = `<p><label>Angle 1: </label>${angl1}</p>
+                                  <p><label>Angle 2: </label>${angl2}</p>
+                                  <p><label>Missing Angle: </label>${angl3.toFixed(2)}</p>`;
+
+                    document.write(html);
+
+
+
+
+        </script>
+    </body>
+</html>
